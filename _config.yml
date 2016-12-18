@@ -33,7 +33,7 @@ uiux:
     theme_sub_color: "#69F0AE"
 #    theme_sub_color: "#B2FF59"
 #    hyperlink_color: "#00838F"
-    hyperlink_color: "#69F0AE"
+    hyperlink_color: "#B2FF59"
     button_color: "#757575"
     android_chrome_color: "#673AB7"
     nprogress_color: "#FF4081"
