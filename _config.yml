@@ -4,16 +4,20 @@
 
 # Head info
 head:
+# TODO
     favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
+# TODO
+    high_res_favicon: "/img/avatar.png"
+# TODO
     apple_touch_icon: "/img/favicon.png"
-    keywords: 
+    keywords: Perqin
 
 # Jump Links Settings
 url:
     rss: 
+# TODO
     daily_pic: "#"
-    logo: 
+    logo: "/"
 
 
 # ---------------------------------------------------------------
@@ -25,13 +29,15 @@ scheme: Paradox
 #scheme: Isolation
 
 # UI & UX: slogan, color, effect
+# TODO
 uiux:
     slogan: "Blogging is as painful as writing docs..."
-    theme_color: "#0097A7"
-    theme_sub_color: "#00838F"
+    theme_color: "#673AB7"
+    theme_sub_color: "#69F0AE"
+#    theme_sub_color: "#B2FF59"
     hyperlink_color: "#00838F"
     button_color: "#757575"
-    android_chrome_color: "#0097A7"
+    android_chrome_color: "#673AB7"
     nprogress_color: "#FF4081"
     nprogress_buffer: "800"
     
@@ -44,7 +50,7 @@ js_effect:
 # markdown available value:
 #     Material | Github | Plain
 reading:
-    markdown: Material
+    markdown: Github
     entry_excerpt: 80
     code_highlight: solarized-white
 
@@ -69,8 +75,8 @@ background:
 img:
     logo: "/img/logo.png"
     avatar: "/img/avatar.png"
-    daily_pic: "/img/daily_pic.png"
-    sidebar_header: "/img/sidebar_header.png"
+    daily_pic: "/img/sidebar_header.jpg"
+    sidebar_header: "/img/sidebar_header.jpg"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
     random_thumbnail: "/img/random/"
@@ -84,19 +90,19 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    twitter: "https://twitter.com/twitter"
-    facebook: "https://www.facebook.com/facebook"
+    email: perqinxie@gmail.com
+    twitter: "https://twitter.com/perqinxie"
+    facebook: "https://www.facebook.com/perqinxie"
     googleplus: "https://www.google.com/"
-    weibo: 
+    weibo: "http://weibo.com/perqin"
     instagram: 
     tumblr: 
-    github: 
+    github: "https://github.com/perqin"
 
 # Sidebar User Dropdown
 dropdown: 
     Email Me: 
-        link: "#"
+        link: "mailto:perqinxie@gmail.com"
         icon: email
 
 # Pages Menu
@@ -113,8 +119,8 @@ pages:
 # Available value:
 #     duoshuo | disqus
 comment:
-    use: 
-    shortname: 
+    use: "duoshuo"
+    shortname: "perqinblog"
     duoshuo_thread_key: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
