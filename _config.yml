@@ -21,12 +21,12 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Paradox
-scheme: Isolation
+scheme: Paradox
+#scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "Blogging is as painful as writing docs..."
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -44,7 +44,7 @@ js_effect:
 # markdown available value:
 #     Material | Github | Plain
 reading:
-    markdown: Github
+    markdown: Material
     entry_excerpt: 80
     code_highlight: solarized-white
 
