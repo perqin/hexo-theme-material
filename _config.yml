@@ -4,11 +4,8 @@
 
 # Head info
 head:
-# TODO
     favicon: "/img/favicon.png"
-# TODO
     high_res_favicon: "/img/avatar.png"
-# TODO
     apple_touch_icon: "/img/favicon.png"
     keywords: Perqin
 
