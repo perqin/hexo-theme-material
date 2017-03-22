@@ -91,9 +91,9 @@ card_elevation: 2
 sns:
     email: perqinxie@gmail.com
     twitter: "https://twitter.com/perqinxie"
-    facebook: "https://www.facebook.com/perqinxie"
-    googleplus: "https://www.google.com/"
-    weibo: "http://weibo.com/perqin"
+    facebook:
+    googleplus:
+    weibo:
     instagram: 
     tumblr: 
     github: "https://github.com/perqin"
@@ -159,10 +159,8 @@ topPost: false
 # Available value of "use":
 #     duoshuo | disqus | disqus_click
 comment:
-    use: "duoshuo"
-    shortname: "perqinblog"
-    duoshuo_thread_key_type: path
-    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+    use: "disqus"
+    shortname: "perqin-github-io"
 
 # Search Systems
 # Available value:
@@ -178,9 +176,9 @@ analytics:
 
 # Leancloud Views
 leancloud:
-    enable: false
-    app_id: #你的 app_id
-    app_key: #你的 app_key
+    enable: true
+    app_id: "9NO51bS4lAdFLWmeHw6hqsme-gzGzoHsz"
+    app_key: "cJv00rbPJMACwRzdikPu599T"
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
 
 # Busuanzi 不蒜子 Views
