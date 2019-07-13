@@ -246,7 +246,7 @@ leancloud:
     enable: true
     app_id: "9NO51bS4lAdFLWmeHw6hqsme-gzGzoHsz"
     app_key: "cJv00rbPJMACwRzdikPu599T"
-    av_core_mini: "https://cdn.jsdelivr.net/npm/leancloud-storage@3.14.0/dist/av-min.js"
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
 
 # Busuanzi 不蒜子 Views
 busuanzi:
