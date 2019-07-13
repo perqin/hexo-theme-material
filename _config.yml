@@ -8,6 +8,8 @@ head:
     high_res_favicon: "/img/avatar.png"
     apple_touch_icon: "/img/favicon.png"
     keywords: Perqin
+    site_verification:
+        google: LaDI7pG-BazqdWCwGO9Q5yizwama4f7O-DKsyPGXPD8
 
 # Jump Links Settings
 url:
@@ -82,6 +84,28 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 # Card Elevation Level
 card_elevation: 2
 
+# Copyright
+# Specify the date when the site was setup.
+#    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
+copyright_since: 2016
+
+# Code highlight
+# You can only enable one of them to avoid issues.
+# Also you need to disable highlight option in hexo's _config.yml.
+#
+#    Prettify
+#        theme: # Available value in /source/css/prettify/[theme].min.css
+prettify:
+    enable: true
+    theme: "github-v2"
+
+# Post License
+# You can specify the text you want to show in the end of your posts and pages, HTML tag is supported.
+#   For example, you can setup a CC license as:
+#       'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
+# You can also use Front-Matter `license` to override this setting.
+license:
+
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -145,12 +169,6 @@ sidebar:
         feedback: false
         material: false
 
-# Qrcode for redirect at other device
-qrcode: false
-
-# Support Pin posts on the top of the list
-topPost: false
-
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
@@ -179,11 +197,4 @@ leancloud:
     enable: true
     app_id: "9NO51bS4lAdFLWmeHw6hqsme-gzGzoHsz"
     app_key: "cJv00rbPJMACwRzdikPu599T"
-    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
-
-# Busuanzi 不蒜子 Views
-busuanzi:
-    enable: false
-    all_site_uv: false
-    post_pv: false
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+    av_core_mini: "https://cdn.jsdelivr.net/npm/leancloud-storage@3.14.0/dist/av-min.js"

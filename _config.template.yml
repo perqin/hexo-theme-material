@@ -7,7 +7,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/avatar.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: Perqin
+    keywords:
     site_verification:
         google:
         baidu:
