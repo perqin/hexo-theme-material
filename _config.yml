@@ -207,6 +207,18 @@ sidebar:
         Showcase:
             link: "/showcases"
             icon: public
+            divider: true
+        BirdZhang's Blog:
+            link: "https://birdzhang.xyz/"
+            icon: public
+            divider: false
+        Dospy-梦影决幻:
+            link: "https://weibo.com/435312561"
+            icon: public
+            divider: false
+        浮游大陆:
+            link: "https://blog.qshen.cc/"
+            icon: public
             divider: false
     article_num:
         use: false
