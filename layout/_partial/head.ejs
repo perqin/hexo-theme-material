@@ -1,5 +1,9 @@
 <head>
     <meta charset="utf-8">
+    <!-- AMP support -->
+    <% if (is_post() && config.generator_amp) { %>
+        <link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path %>/amp/index.html">
+    <% } %>
     <!--
         © Material Theme
         https://github.com/viosey/hexo-theme-material
