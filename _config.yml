@@ -220,6 +220,10 @@ sidebar:
             link: "https://blog.qshen.cc/"
             icon: public
             divider: false
+        FrodoLuo:
+            link: "https://www.frodoluo.ink/blog"
+            icon: public
+            divider: false
     article_num:
         use: false
         divider: false
